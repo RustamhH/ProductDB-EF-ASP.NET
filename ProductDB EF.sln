@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductDB EF", "ProductDB EF\ProductDB EF.csproj", "{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{8F9122DF-E158-4787-9039-C2EB1E6E2F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9122DF-E158-4787-9039-C2EB1E6E2F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9122DF-E158-4787-9039-C2EB1E6E2F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9122DF-E158-4787-9039-C2EB1E6E2F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9122DF-E158-4787-9039-C2EB1E6E2F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FBD5187-2576-4219-A34B-D6AB280FAE25}
+	EndGlobalSection
+EndGlobal

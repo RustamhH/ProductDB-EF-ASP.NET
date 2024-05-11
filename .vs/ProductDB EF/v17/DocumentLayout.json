@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\views\\category\\getallcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\category\\getallcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllCategory.cshtml",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Category\\GetAllCategory.cshtml",
+              "RelativeDocumentMoniker": "ProductDB EF\\Views\\Category\\GetAllCategory.cshtml",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Category\\GetAllCategory.cshtml*",
+              "RelativeToolTip": "ProductDB EF\\Views\\Category\\GetAllCategory.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T14:20:16.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProductDB EF\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProductDB EF\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:19:32.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllProducts.cshtml",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "RelativeToolTip": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T14:08:05.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductDB EF\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductDB EF\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:32:06.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
