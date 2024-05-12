@@ -67,14 +67,7 @@ namespace ProductDB_EF.Controllers
         }
 
 
-
-        // update
        
-
-   
-
-
-
 
 
 

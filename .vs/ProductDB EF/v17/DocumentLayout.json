@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateProduct.cshtml",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
-              "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
-              "RelativeToolTip": "ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T13:12:05.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductDB EF\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductDB EF\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T12:03:43.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GetAllProducts.cshtml",
               "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
               "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
               "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
               "RelativeToolTip": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBAAAABUAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T20:18:27.737Z",
               "EditorCaption": ""
