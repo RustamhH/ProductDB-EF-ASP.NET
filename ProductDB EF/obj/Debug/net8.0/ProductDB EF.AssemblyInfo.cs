@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductDB EF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f17dcb035abf2028a79d9509a80c0cb46bdf81dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductDB EF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductDB EF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

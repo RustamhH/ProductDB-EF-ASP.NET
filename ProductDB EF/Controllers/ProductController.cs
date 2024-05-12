@@ -1,6 +1,8 @@
 ﻿using Database.Entities.Concretes;
 using Database.Repositories.Abstracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ProductDB_EF.ViewModels;
 
 namespace ProductDB_EF.Controllers
 {
@@ -8,39 +10,48 @@ namespace ProductDB_EF.Controllers
     {
 
         private readonly IGenericRepository<Product> _productRepository;
+        private readonly IGenericRepository<Category> _categoryRepository;
 
-        public ProductController(IGenericRepository<Product> productRepository)
+        public ProductController(IGenericRepository<Product> productRepository, IGenericRepository<Category> categoryRepository)
         {
             _productRepository = productRepository;
+            _categoryRepository = categoryRepository;
         }
 
         [HttpGet]
         public IActionResult AddProduct()
         {
+            ViewBag.Categories = _categoryRepository.GetAllAsync().Result;
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddProduct(Product product)
+        public async Task<IActionResult> AddProduct(ProductVM productVM)
         {
+            
+            var product=new Product() { Name = productVM.Name,ImageUrl=productVM.ImageUrl,Price=productVM.Price,CategoryId=productVM.CategoryId };
             await _productRepository.AddAsync(product);
-            return View(product);
+            return RedirectToAction("GetAllProducts");
         }
 
 
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
-            var categories = await _productRepository.GetAllAsync();
-            return View(categories);
+            var products = await _productRepository.GetAllAsync();
+            for (int i = 0; i < products.Count; i++)
+            {
+                foreach (var category in _categoryRepository.GetAllAsync().Result)
+                {
+                    if (category.Id == products[i].CategoryId)
+                    {
+                        products[i].Category = category;
+                    }
+                }
+            }
+
+            return View(products);
         }
-
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
 
         [HttpGet]
         public IActionResult RemoveProduct()
@@ -54,6 +65,18 @@ namespace ProductDB_EF.Controllers
             await _productRepository.DeleteAsync(productId);
             return RedirectToAction("GetAllProducts");
         }
+
+
+
+        // update
+       
+
+   
+
+
+
+
+
 
     }
 }

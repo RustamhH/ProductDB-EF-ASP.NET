@@ -20,6 +20,9 @@ namespace Database.Configurations
             builder.Property(p => p.Price)
             .IsRequired();
 
+            builder.HasOne(p => p.Category)
+                .WithMany(p => p.Products)
+                .HasForeignKey(p => p.CategoryId);
             
         }
     }

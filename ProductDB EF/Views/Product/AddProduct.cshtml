@@ -28,8 +28,13 @@
 
                 
                 <div class="form-group">
-                    <label for="ProductCategory">Product Category</label>
-                    <input type="text" class="form-control" id="productCategory" asp-for="CategoryId" required>
+                    <label>Product Category:</label>
+                    <select asp-for="CategoryId">
+                        @foreach (Category c in ViewBag.Categories)
+                        {
+                            <option value="@c.Id">@c.Name</option>
+                        }
+                    </select>
                     
                 </div>
 

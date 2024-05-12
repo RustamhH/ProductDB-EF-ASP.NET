@@ -7,10 +7,20 @@
         <div class="card-body">
             <h5 class="card-title">@item.Name</h5>
             <p class="card-text">@item.Price$</p>
+            <p class="card-text">@item.Category?.Name</p>
+
             <form asp-controller="Product" asp-action="RemoveProduct" method="post">
                 <input type="hidden" name="productId" value="@item.Id" />
                 <button type="submit" class="btn btn-danger">Remove</button>
             </form>
+            
+            <form asp-controller="Product" asp-action="UpdateProduct" method="post">
+                <input type="hidden" name="productId" value="@item.Id" />
+                <button type="submit" class="btn btn-danger">Update</button>
+            </form>
+
         </div>
     </div>
+
+    
 }

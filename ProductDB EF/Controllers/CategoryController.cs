@@ -1,6 +1,9 @@
-﻿using Database.Entities.Concretes;
+﻿using Database.Contexts;
+using Database.Entities.Concretes;
 using Database.Repositories.Abstracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ProductDB_EF.ViewModels;
 
 namespace ProductDB_EF.Controllers
 {
@@ -16,25 +19,28 @@ namespace ProductDB_EF.Controllers
         [HttpGet]
         public IActionResult AddCategory()
         {
+
             return View();
+
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCategory(Category category)
+        public async Task<IActionResult> AddCategory(CategoryVM categoryVM)
         {
             bool exist = false;
             foreach (var item in await _categoryRepository.GetAllAsync())
             {
-                if (item.Name == category.Name)
+                if (item.Name == categoryVM.Name)
                 {
                     exist = true;
                 }
             }
             if (!exist)
             {
+                var category = new Category() { Name=categoryVM.Name};
                 await _categoryRepository.AddAsync(category);
             }
-            return View();
+            return RedirectToAction("GetAllCategory");
         }
 
 

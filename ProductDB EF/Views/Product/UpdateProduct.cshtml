@@ -1,0 +1,62 @@
+﻿@model Product
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2 class="text-center mb-4">Update Product</h2>
+            <form asp-action="UpdateProduct">
+                <div class="form-group">
+                    <label for="ProductName">Product Name</label>
+                    <input type="text" class="form-control" id="product" asp-for="Name" value="@Model.Name" required>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="ProductImageUrl">Product ImageUrl</label>
+                    <input type="text" class="form-control" id="productImageUrl" asp-for="ImageUrl" value="@Model.ImageUrl" required>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="ProductPrice">Product Price</label>
+                    <input type="text" class="form-control" id="productPrice" asp-for="Price" value="@Model.Price" required>
+
+                </div>
+
+
+                @* <div class="form-group">
+                    <label>Product Category:</label>
+                    <select asp-for="CategoryId">
+                        @foreach (Category c in ViewBag.Categories)
+                        {
+                            <option value="@c.Id">@c.Name</option>
+                        }
+                    </select>
+
+                </div> *@
+
+                <div class="form-group">
+                    <label>Product Category:</label>
+                    <select asp-for="CategoryId" class="form-control">
+                        @foreach (Category c in ViewBag.Categories)
+                        {
+                            string selected = "";
+                            if (Model.Category != null && c.Name == Model.Category.Name)
+                            {
+                                selected = "selected";
+                            }
+
+                            <option value="@c.Id" selected="@selected">@c.Name</option>
+                        }
+                    </select>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary btn-block">Confirm Update</button>
+            </form>
+        </div>
+    </div>
+</div>
