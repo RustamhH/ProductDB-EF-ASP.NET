@@ -14,5 +14,6 @@ namespace Database.Repositories.Abstracts
         Task Update(T entity);
         Task DeleteAsync(int id);
         Task SaveChanges();
+        Task<T> GetByIdAsync(int id);
     }
 }

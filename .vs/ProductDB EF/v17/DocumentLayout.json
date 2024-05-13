@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\",
+  "WorkspaceRootPath": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\productdb ef\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\getallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\disk-data\\asp.net\\productdb ef\\productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\productdb ef\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64382BC5-4F28-4B14-A8BD-CFD92554D7C4}|ProductDB EF\\ProductDB EF.csproj|solutionrelative:productdb ef\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F9122DF-E158-4787-9039-C2EB1E6E2F62}|Database\\Database.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\database\\repositories\\abstracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F9122DF-E158-4787-9039-C2EB1E6E2F62}|Database\\Database.csproj|solutionrelative:database\\repositories\\abstracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F9122DF-E158-4787-9039-C2EB1E6E2F62}|Database\\Database.csproj|c:\\users\\hesen_zc39\\source\\repos\\productdb-ef-asp.net\\database\\repositories\\concretes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F9122DF-E158-4787-9039-C2EB1E6E2F62}|Database\\Database.csproj|solutionrelative:database\\repositories\\concretes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\Database\\Repositories\\Abstracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Database\\Repositories\\Abstracts\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\Database\\Repositories\\Abstracts\\IGenericRepository.cs",
+              "RelativeToolTip": "Database\\Repositories\\Abstracts\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:57:55.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\Database\\Repositories\\Concretes\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Database\\Repositories\\Concretes\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\Database\\Repositories\\Concretes\\GenericRepository.cs",
+              "RelativeToolTip": "Database\\Repositories\\Concretes\\GenericRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:57:52.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "ProductDB EF\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T14:43:18.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "ProductDB EF\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T14:42:29.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductDB EF\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductDB EF\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T12:03:43.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GetAllProducts.cshtml",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
               "RelativeDocumentMoniker": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\ProductDB EF\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
+              "ToolTip": "C:\\Users\\Hesen_zc39\\source\\repos\\ProductDB-EF-ASP.NET\\ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
               "RelativeToolTip": "ProductDB EF\\Views\\Product\\GetAllProducts.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBIAAAAKAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T20:18:27.737Z",
               "EditorCaption": ""

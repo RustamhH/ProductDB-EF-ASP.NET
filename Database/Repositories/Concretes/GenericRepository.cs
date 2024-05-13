@@ -1,5 +1,6 @@
 ﻿using Database.Contexts;
 using Database.Entities.Abstracts;
+using Database.Entities.Concretes;
 using Database.Repositories.Abstracts;
 using Microsoft.EntityFrameworkCore;
 using System;

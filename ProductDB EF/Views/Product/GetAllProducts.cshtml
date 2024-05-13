@@ -13,7 +13,9 @@
                 <input type="hidden" name="productId" value="@item.Id" />
                 <button type="submit" class="btn btn-danger">Remove</button>
             </form>
-            
+
+            <a class="btn btn-secondary" asp-action="UpdateProduct" asp-route-id="@item.Id">Update</a>
+
 
         </div>
     </div>

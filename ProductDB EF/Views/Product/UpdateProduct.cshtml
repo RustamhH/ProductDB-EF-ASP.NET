@@ -1,0 +1,33 @@
+﻿@model Product
+
+
+<form class="container" asp-action="UpdateProduct">
+    <div class="form-group">
+        <label>Title</label>
+        <input asp-for="Name" type="text" class="form-control" placeholder="Enter Title">
+    </div>
+
+    <div class="form-group">
+        <label>Price</label>
+        <input asp-for="Price" type="text" class="form-control" placeholder="Enter Price">
+    </div>
+
+    <div class="form-group">
+        <label>Image</label>
+        <input asp-for="ImageUrl" type="text" class="form-control" placeholder="Enter Image">
+    </div>
+
+    <div class="form-group">
+        <label>Product Category:</label>
+        <select asp-for="CategoryId">
+            @foreach (Category c in ViewBag.Categories)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

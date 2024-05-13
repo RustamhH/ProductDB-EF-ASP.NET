@@ -9,55 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductDB_EF
 build_property.RootNamespace = ProductDB_EF
-build_property.ProjectDir = C:\Disk-DATA\ASP.NET\ProductDB EF\ProductDB EF\
+build_property.ProjectDir = C:\Users\Hesen_zc39\source\repos\ProductDB-EF-ASP.NET\ProductDB EF\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Disk-DATA\ASP.NET\ProductDB EF\ProductDB EF
+build_property.MSBuildProjectDirectory = C:\Users\Hesen_zc39\source\repos\ProductDB-EF-ASP.NET\ProductDB EF
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Category/AddCategory.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Category/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Category/GetAllCategory.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Category/GetAllCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Home/Index.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Home/Privacy.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Product/AddProduct.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Product/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Product/GetAllProducts.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Product/GetAllProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Shared/Error.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/_ViewImports.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/_ViewStart.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Disk-DATA/ASP.NET/ProductDB EF/ProductDB EF/Views/Shared/_Layout.cshtml]
+[C:/Users/Hesen_zc39/source/repos/ProductDB-EF-ASP.NET/ProductDB EF/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-63cbfsvgoj

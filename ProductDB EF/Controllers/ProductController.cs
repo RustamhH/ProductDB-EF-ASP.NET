@@ -66,8 +66,23 @@ namespace ProductDB_EF.Controllers
             return RedirectToAction("GetAllProducts");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> UpdateProduct(int id)
+        {
+            ViewBag.Categories = _categoryRepository.GetAllAsync().Result;
+            var item = await _productRepository.GetByIdAsync(id);
+            return View(item);
+        }
 
-       
+        [HttpPost]
+
+        public async Task<IActionResult> UpdateProduct(Product product)
+        {
+            await Console.Out.WriteLineAsync(product.CategoryId.ToString());
+            await _productRepository.Update(product);
+            return RedirectToAction("GetAllProducts");
+        }
+
 
 
 
